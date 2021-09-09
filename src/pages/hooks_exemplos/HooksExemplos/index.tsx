@@ -26,6 +26,48 @@ export function HooksExemplos() {
           botao_type="button"
         />
         <BotaoLinkEstilizado
+          to="/hooks_exemplos/use_context_exemplo"
+          botao_label="useContext"
+          botao_cor="primary"
+          botao_type="button"
+        />
+        <BotaoLinkEstilizado
+          to="/hooks_exemplos/use_ref_exemplo"
+          botao_label="useRef"
+          botao_cor="primary"
+          botao_type="button"
+        />
+        <BotaoLinkEstilizado
+          to="/hooks_exemplos/use_memo_exemplo"
+          botao_label="useMemo"
+          botao_cor="primary"
+          botao_type="button"
+        />
+        <BotaoLinkEstilizado
+          to="/hooks_exemplos/use_debug_value_exemplo"
+          botao_label="useDebugValue"
+          botao_cor="primary"
+          botao_type="button"
+        />
+        <BotaoLinkEstilizado
+          to="/hooks_exemplos/use_callback_exemplo"
+          botao_label="useCallback"
+          botao_cor="primary"
+          botao_type="button"
+        />
+        <BotaoLinkEstilizado
+          to="/hooks_exemplos/use_imperative_handle_exemplo"
+          botao_label="useImperativeHandle"
+          botao_cor="primary"
+          botao_type="button"
+        />
+        <BotaoLinkEstilizado
+          to="/hooks_exemplos/use_layout_effect_exemplo"
+          botao_label="useLayoutEffect"
+          botao_cor="primary"
+          botao_type="button"
+        />
+        <BotaoLinkEstilizado
           to="/"
           botao_label="Voltar"
           botao_cor="danger"
