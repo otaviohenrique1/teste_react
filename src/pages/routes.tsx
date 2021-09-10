@@ -11,12 +11,14 @@ import { UseMemoExemplo } from "./hooks_exemplos/UseMemoExemplo";
 import { UseReducerExemplo } from "./hooks_exemplos/UseReducerExemplo";
 import { UseRefExemplo } from "./hooks_exemplos/UseRefExemplo";
 import { UseStateExemplo } from "./hooks_exemplos/UseStateExemplo";
+import { TesteApi } from "./TesteApiPage";
 
 export function Routes() {
   return (
     <BrowserRouter>
       <Switch>
         <Route exact path='/' component={Home} />
+        <Route exact path='/teste_api' component={TesteApi} />
         <Route exact path='/hooks_exemplos' component={HooksExemplos} />
         <Route exact path='/hooks_exemplos/use_state_exemplo' component={UseStateExemplo} />
         <Route exact path='/hooks_exemplos/use_reducer_exemplo' component={UseReducerExemplo} />
